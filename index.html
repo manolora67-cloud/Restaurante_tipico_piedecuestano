@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante Típico Piedecuestano - Auténtica gastronomía colombiana">
+    <title>Restaurante Típico Piedecuestano | Sabor Tradicional</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <i class="fas fa-utensils"></i>
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span class="logo-text">Restaurante Típico<br><small>Piedecuestano</small></span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#reservas" class="nav-link">Reservas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="tel:76543156" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>76543156</span>
+                </a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-slider">
+            <div class="hero-slide active"
+                style="background-image: linear-gradient(135deg, rgba(196,30,58,0.85), rgba(139,0,0,0.85)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 800%22><rect fill=%22%23f5f5f5%22 width=%221200%22 height=%22800%22/><text fill=%22%23c41e3a%22 font-size=%2240%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22>Restaurante</text></svg>')">
+            </div>
+            <div class="hero-slide"
+                style="background-image: linear-gradient(135deg, rgba(196,30,58,0.85), rgba(139,0,0,0.85)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 800%22><rect fill=%22%23f5f5f5%22 width=%221200%22 height=%22800%22/><text fill=%22%23c41e3a%22 font-size=%2240%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22>Comida Típica</text></svg>')">
+            </div>
+        </div>
+
+        <div class="hero-content" data-aos="fade-up">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>4.4 (229 reseñas)</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Restaurante Típico</span>
+                <span class="title-line highlight">Piedecuestano</span>
+            </h1>
+            <p class="hero-subtitle">"Con el rico sabor de nuestra tierra"</p>
+            <p class="hero-description">Auténtica gastronomía colombiana en el corazón de Piedecuesta, Santander</p>
+
+            <div class="hero-buttons">
+                <a href="#reservas" class="btn btn-primary">
+                    <i class="fas fa-calendar-check"></i>
+                    Reservar Mesa
+                </a>
+                <a href="https://maps.app.goo.gl/w8vyCR8gRnqCKUhv7" target="_blank" class="btn btn-outline">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Cómo Llegar
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <strong>7:00 am - 4:00 pm</strong>
+                        <span>Horario de atención</span>
+                    </div>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-tag"></i>
+                    <div>
+                        <strong>$10K - $20K</strong>
+                        <span>Precio por persona</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <a href="#nosotros" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="nosotros">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Bienvenidos</span>
+                <h2 class="section-title">¿Por qué elegirnos?</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Comida Típica</h3>
+                    <p>Auténtica gastronomía santandereana preparada con recetas tradicionales y los mejores
+                        ingredientes</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Precios Justos</h3>
+                    <p>Calidad excepcional a precios accesibles. Desde $10.000 hasta $20.000 por persona</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Abierto Todos los Días</h3>
+                    <p>De lunes a domingo de 7:00 a.m. a 4:00 p.m. para servirte cuando nos necesites</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Calidad Garantizada</h3>
+                    <p>Más de 229 clientes satisfechos nos respaldan con 4.4 estrellas en Google</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-right">
+                    <div class="about-img-main">
+                        <div class="placeholder-img">
+                            <i class="fas fa-image"></i>
+                            <span>Nuestro Restaurante</span>
+                        </div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <div class="placeholder-img">
+                            <i class="fas fa-image"></i>
+                            <span>Ambiente</span>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <strong>+10</strong>
+                        <span>Años de<br>experiencia</span>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">Sobre Nosotros</span>
+                    <h2 class="section-title">Tradición y sabor en cada plato</h2>
+                    <div class="section-divider-left"></div>
+
+                    <p>En el Restaurante Típico Piedecuestano llevamos años deleitando a nuestros clientes con la
+                        auténtica comida santandereana. Cada plato es preparado con amor, tradición y los ingredientes
+                        más frescos.</p>
+
+                    <p>Nos especializamos en desayunos típicos, almuerzos completos y platos fuertes que representan lo
+                        mejor de nuestra cultura gastronómica.</p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ingredientes frescos y locales</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Recetas tradicionales</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ambiente familiar y acogedor</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Atención personalizada</span>
+                        </div>
+                    </div>
+
+                    <a href="#menu" class="btn btn-primary">Ver Nuestro Menú</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours-section" id="horarios">
+        <div class="container">
+            <div class="hours-wrapper" data-aos="zoom-in">
+                <div class="hours-header">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horarios de Atención</h3>
+                </div>
+                <div class="hours-grid">
+                    <div class="hours-item">
+                        <span class="day">Lunes</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Martes</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Miércoles</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Jueves</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Viernes</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Sábado</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Domingo</span>
+                        <span class="time">7:00 a.m. - 4:00 p.m.</span>
+                    </div>
+                </div>
+                <div class="hours-note">
+                    <i class="fas fa-info-circle"></i>
+                    <span>¡Abierto todos los días del año!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nuestro Menú</span>
+                <h2 class="section-title">Especialidades de la Casa</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="desayunos">
+                    <i class="fas fa-sun"></i> Desayunos
+                </button>
+                <button class="menu-tab" data-tab="fuertes">
+                    <i class="fas fa-drumstick-bite"></i> Platos Fuertes
+                </button>
+                <button class="menu-tab" data-tab="especiales">
+                    <i class="fas fa-star"></i> Especiales
+                </button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Desayunos -->
+                <div class="menu-category active" id="desayunos">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">01</div>
+                                <h4>Desayuno Típico Completo</h4>
+                            </div>
+                            <p class="menu-item-desc">Huevos, arepa, chocolate, queso y pan</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$10.000</span>
+                                <span class="menu-portion">Por persona</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">02</div>
+                                <h4>Arepas Rellenas de Pollo</h4>
+                            </div>
+                            <p class="menu-item-desc">Arepa rellena con pollo desmechado y queso</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$12.000</span>
+                                <span class="menu-portion">2 unidades</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">03</div>
+                                <h4>Tamales Santandereanos</h4>
+                            </div>
+                            <p class="menu-item-desc">Tamal tradicional con carne y verduras</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$8.000</span>
+                                <span class="menu-portion">Unidad</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">04</div>
+                                <h4>Media Porción</h4>
+                            </div>
+                            <p class="menu-item-desc">Opción económica de cualquier desayuno</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$4.500</span>
+                                <span class="menu-portion">Media porción</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platos Fuertes -->
+                <div class="menu-category" id="fuertes">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">01</div>
+                                <h4>Picada Santandereana</h4>
+                            </div>
+                            <p class="menu-item-desc">Carne, pollo, chorizo, papa, yuca, arepa y hogao</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$18.000</span>
+                                <span class="menu-portion">Para 2 personas</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">02</div>
+                                <h4>Mute Santandereano</h4>
+                            </div>
+                            <p class="menu-item-desc">Sopa tradicional con maíz, papa y carne</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$15.000</span>
+                                <span class="menu-portion">Porción completa</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">03</div>
+                                <h4>Carne Asada</h4>
+                            </div>
+                            <p class="menu-item-desc">Carne a la parrilla con guarnición completa</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$20.000</span>
+                                <span class="menu-portion">Por persona</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">04</div>
+                                <h4>Pollo a la Parrilla</h4>
+                            </div>
+                            <p class="menu-item-desc">Pollo entero o medio con acompañamientos</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$16.000</span>
+                                <span class="menu-portion">Por persona</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Especiales -->
+                <div class="menu-category" id="especiales">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">01</div>
+                                <h4>Costillas BBQ</h4>
+                            </div>
+                            <p class="menu-item-desc">Costillas de cerdo con salsa barbacoa</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$22.000</span>
+                                <span class="menu-portion">Orden completa</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">02</div>
+                                <h4>Chuleta Valluna</h4>
+                            </div>
+                            <p class="menu-item-desc">Chuleta de cerdo empanizada con arroz y ensalada</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$19.000</span>
+                                <span class="menu-portion">Por persona</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">03</div>
+                                <h4>Bandeja Paisa</h4>
+                            </div>
+                            <p class="menu-item-desc">Frijoles, arroz, carne, chorizo, huevo, arepa</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$21.000</span>
+                                <span class="menu-portion">Por persona</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item-header">
+                                <div class="menu-item-number">04</div>
+                                <h4>Sopa del Día</h4>
+                            </div>
+                            <p class="menu-item-desc">Pregunta por nuestra sopa especial del día</p>
+                            <div class="menu-item-footer">
+                                <span class="menu-price">$9.000</span>
+                                <span class="menu-portion">Porción individual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="galeria">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Galería</span>
+                <h2 class="section-title">Nuestras Instalaciones</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Restaurante</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Comida Típica</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Ambiente</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Platos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Desayunos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Atención</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Testimonios</span>
+                <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Excelente y deliciosa comida. Las arepas rellenas de pollo son
+                        exquisitas. Totalmente recomendado"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SR</div>
+                        <div>
+                            <h4>Sebastian Rodriguez</h4>
+                            <span class="testimonial-role">Cliente frecuente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"La mesera fue muy amable, el mute estaba delicioso y dan opción de
+                        pedir media porción. Muy buenos precios"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">GC</div>
+                        <div>
+                            <h4>Gloria Alexandra Contreras</h4>
+                            <span class="testimonial-role">Cliente frecuente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Deliciosa comida típica. Buenos precios, 100% recomendados. Volveré sin
+                        duda"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">DR</div>
+                        <div>
+                            <h4>David Ramírez</h4>
+                            <span class="testimonial-role">Cliente frecuente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation-section" id="reservas">
+        <div class="container">
+            <div class="reservation-wrapper">
+                <div class="reservation-info" data-aos="fade-right">
+                    <span class="section-subtitle">Reservas</span>
+                    <h2 class="section-title">Reserva Tu Mesa</h2>
+                    <div class="section-divider-left"></div>
+                    <p>Asegura tu lugar con nosotros. Contáctanos y te atenderemos con gusto.</p>
+
+                    <div class="reservation-features">
+                        <div class="reservation-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Confirmación inmediata</span>
+                        </div>
+                        <div class="reservation-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Atención personalizada</span>
+                        </div>
+                        <div class="reservation-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Grupos y eventos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reservation-form-wrapper" data-aos="fade-left">
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                Nombre completo
+                            </label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">
+                                    <i class="fas fa-phone"></i>
+                                    Teléfono
+                                </label>
+                                <input type="tel" id="phone" name="phone" required placeholder="76543156">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">
+                                    <i class="fas fa-calendar"></i>
+                                    Fecha
+                                </label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">
+                                    <i class="fas fa-clock"></i>
+                                    Hora
+                                </label>
+                                <select id="time" name="time" required>
+                                    <option value="">Selecciona hora</option>
+                                    <option value="7:00">7:00 a.m.</option>
+                                    <option value="8:00">8:00 a.m.</option>
+                                    <option value="9:00">9:00 a.m.</option>
+                                    <option value="10:00">10:00 a.m.</option>
+                                    <option value="11:00">11:00 a.m.</option>
+                                    <option value="12:00">12:00 m.</option>
+                                    <option value="1:00">1:00 p.m.</option>
+                                    <option value="2:00">2:00 p.m.</option>
+                                    <option value="3:00">3:00 p.m.</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guests">
+                                    <i class="fas fa-users"></i>
+                                    Personas
+                                </label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Cantidad</option>
+                                    <option value="1">1 persona</option>
+                                    <option value="2">2 personas</option>
+                                    <option value="3">3 personas</option>
+                                    <option value="4">4 personas</option>
+                                    <option value="5">5 personas</option>
+                                    <option value="6">6 personas</option>
+                                    <option value="7+">7+ personas</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                Mensaje (opcional)
+                            </label>
+                            <textarea id="message" name="message" rows="3"
+                                placeholder="¿Alguna solicitud especial?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Reserva
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Contacto</span>
+                <h2 class="section-title">Visítanos</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Dirección</h4>
+                            <p>Cra. 8 #8-54<br>Piedecuesta, Santander</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:76543156">76543156</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horario</h4>
+                            <p>Lun - Dom<br>7:00 a.m. - 4:00 p.m.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Rango de Precios</h4>
+                            <p>$10.000 - $20.000<br>por persona</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="https://maps.app.goo.gl/w8vyCR8gRnqCKUhv7" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-directions"></i>
+                            Ver en Google Maps
+                        </a>
+                        <a href="tel:76543156" class="btn btn-outline">
+                            <i class="fas fa-phone"></i>
+                            Llamar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-wrapper" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.123456789!2d-73.051234567!3d7.012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e68c1234567890a%3A0x1234567890abcdef!2sCra.%208%20%238-54%2C%20Piedecuesta!5e0!3m2!1ses!2sco!4v1234567890!5m2!1ses!2sco"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-utensils"></i> Restaurante Típico Piedecuestano</h3>
+                    <p>"Con el rico sabor de nuestra tierra"</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#reservas">Reservas</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Restaurante Típico Piedecuestano. Todos los derechos reservados.</p>
+                <p class="footer-credit">Hecho con <i class="fas fa-heart"></i> en Piedecuesta, Santander</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
